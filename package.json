@@ -4,6 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "start": "npm run nodejs:dev",
     "all:build": "npm run build -ws --if-present",
     "aws-lambda:build": "npm run build -w @udonarium-backend/aws-lambda",
     "aws-lambda:dev": "npm run dev -w @udonarium-backend/aws-lambda",
