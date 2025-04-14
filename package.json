@@ -17,6 +17,8 @@
     "nodejs:dev": "npm run dev -w @udonarium-backend/nodejs"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "hono": "^4.5.9"
   },
   "devDependencies": {
